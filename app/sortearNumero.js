@@ -9,7 +9,7 @@ itemMenorValor.innerHTML = JSON.stringify(menorValor);
 itemMaiorValor.innerHTML = JSON.stringify(maiorValor);
 
 function geradorNumero() {
-    return `O número secreto é ${parseInt(Math.random() * maiorValor + 1)}`;
+    return `Número Secreto: ${parseInt(Math.random() * maiorValor + 1)}`;
 }
 
 console.log(numeroSecreto);
