@@ -21,3 +21,5 @@ function mostrarChuteNaTela(chute) {
      
      `;
 }
+
+recognition.addEventListener('end', () => recognition.start())

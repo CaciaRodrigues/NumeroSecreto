@@ -29,6 +29,10 @@ h1 {
     font-size: 5rem;
 }
 
+h2{
+    font-size: 4rem;
+}
+
 h3 {
     font-size: 2.5rem;
     margin-top: 20px;
@@ -49,4 +53,17 @@ h3 {
     margin: 20px;
     border-radius: 15px;
     
+}
+
+.btn-jogar{
+    background-color: var(--purple);
+    padding: 2rem;
+    color: var(--lilac-white);
+    font-family: var(--main-font);
+    font-size: 2rem;
+    border-radius: 10px;
+    border: 2px solid var(--purple-black);
+    box-shadow: 0 3px 5px var(--purple-black);
+    cursor: pointer;
+    margin-top: 20px;
 }
